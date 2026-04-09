@@ -54,6 +54,10 @@ blockquote p::after {
   content: "\201D";
 }
 
+blockquote:hover {
+    cursor: pointer;
+}
+
 .outcome-failed {
     color: crimson;
     font-weight: 500;
