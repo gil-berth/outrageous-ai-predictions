@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0; 
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5dvw;
+    height: 100vh;
+    /* width: 100vw; */
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    background: snow;
+}
+
+h1 {
+    margin: 5dvh;
+    font-size: 3rem;
+}
+
+.hg-word {
+    color: crimson;
+}
+
+.quote-grid {
+    display: grid;
+    place-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2%;
+    width: 90dvw;
+}
+
+.quote-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    gap: 3%;
+    background-color: Gainsboro;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius:  10% 10% 70% 15%;
+    min-width: 250px; 
+}
+
+blockquote p::before {
+  content: "\201C";
+}
+
+blockquote p::after {
+  content: "\201D";
+}
+
+.outcome-failed {
+    color: crimson;
+    font-weight: 500;
+}
+
+.outcome-pending {
+    color: green;
+    font-weight: 500;
+}
