@@ -12,7 +12,7 @@ body {
     margin: 2dvw;
     height: 100vh;
     font-family: "Open Sans", sans-serif;
-    font-size: 14px;
+    font-size: 1rem;
     background: snow;
 }
 
@@ -73,6 +73,6 @@ blockquote:hover {
         gap: 0%;
    }
     body {
-        font-size: 16px;
+        font-size: 1.1rem;
     }
 }
